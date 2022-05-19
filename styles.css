@@ -24,7 +24,10 @@ p {
 }
 
 a{
-	font-family: OpenSans-regular
+	font-family: OpenSans-regular;
+	text-decoration: none;
+	color: black;
+	flex-direction: row
 }
 
 li {font-family: OpenSans-regular
