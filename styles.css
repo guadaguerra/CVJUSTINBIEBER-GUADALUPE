@@ -1,11 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 @font-face {
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+    font-family: OpenSans-regular;
+    src: url('tipografia/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+    font-family: OpenSans-ExtraBold;
+    src: url('tipografia/OpenSans-ExtraBold.ttf') format('truetype');
 }
 
 body {
@@ -18,10 +20,11 @@ nav > ul > li > a:hover {
 } 
 
 p {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	font-family: OpenSans-regular
 }
 
-li {font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+li {font-family: OpenSans-regular
+}
 
 body {
     background: url("tipografia/GRx+ç.jpg") no-repeat;
@@ -38,7 +41,7 @@ h1{
 }
 
 h2{
-	font-family: "Arial Black";
+	font-family: OpenSans-ExtraBold;
 	text-align: center
 }
 
